@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+       h2{
+       display: flex;
+            justify-content: center;
+       }
+        table{
+         	display: flex;
+            justify-content: center;
+        }
+
+         td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+<div>
+<h2>Login</h2>
+<form action="LoginServlet" method="post">
+            <table>
+			<tr>
+            <td><label for="username">Username:</label></td>
+            <td><input type="text" id="username" name="username" required placeholder="Enter your Username"></td>
+			</tr><tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" id="password" name="password" required placeholder="Enter your password"></td>
+			</tr><tr>
+			
+            <td><input type="submit" value="Login"></td>
+            <td><a href="Registration.html">Click Here For New User</a></td>
+            </tr>
+            </table>
+       </form>
+</div>
+</body>
+</html>
